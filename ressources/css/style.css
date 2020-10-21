@@ -48,13 +48,14 @@ nav ul li a {
 }
 
 nav ul a:hover {
-    color: #e5ccff 
+    color: #e5ccff
 }
 
 a {
     text-decoration: none;
     color: #f2e6ff;
 }
+
 a:hover {
     color: #e5ccff;
 }
@@ -63,7 +64,7 @@ b {
     color: #d9b3ff;
 }
 
-p{
+p {
     text-align: justify;
 }
 
@@ -142,7 +143,7 @@ footer {
 .logo_ami {
     width: 150px;
     border-radius: 50%;
-    padding : 13%
+    padding: 13%;
 }
 
 /*ID*/
