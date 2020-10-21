@@ -23,7 +23,8 @@ body {
     width: 900px;
     margin: auto;
     font-family: 'minimal';
-    font-size: 20px
+    font-size: 20px;
+    text-align: justify;
 }
 
 nav ul {
