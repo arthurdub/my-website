@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link type="text/css" rel="stylesheet" href="ressources/css/style.css">
+
+    <title>Portfolio - Arthur DUBOIS</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="menu_barre">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Acceuil</a>
+                    </li>
+                    <li>
+                        <a href="formation.html">Formation</a>
+                    </li>
+                    <li>
+                        <a href="parcours.html">Parcours</a>
+                    </li>
+                    <li>
+                        <a href="projet.html">Projets</a>
+                    </li>
+                    <li>
+                        <a href="friends.html">Le coin des amis</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="titre_principal">
+        Projets
+    </div>
+    <main>
+        <div class="sous_titre">INFORMATIQUE</div>
+        <section class="projet">
+            <div class="titre_projet">Création du site et serveur Web</div>
+            <div class="contenu_projet">
+                <div class="soustitre_part">Pourquoi ?</div>
+                <p>La génèse de ce projet date de ma formation en BTS. En effet pour l'une des épreuves oral il était conseillé de créer un site, utilisé comme support, présentant la formation, l'épreuve pratique, les stages et notre parcours. Ce site portoflio pouvait être développer de A à Z (comme celui-ci) ou à partir d'un CMS (Wordpress, Joomla, etc..). Malheuresement la crise sanitaire en 2020 a fait qu'il n'était plus nécessaire car les examens n'avaient plus lieux...Et aussi ma procrastination, avouons-le, car je n'avais rien commencé.</p>
+                <p>Toujours est-il que je trouvais l'idée d'un site web personnel géniale. Tout en reprenant l'idée de base j'y ai ajouté ma touche personnelle. Ainsi après plusieurs mois à réapprendre les bases de développement web, d'essais et de découragement j'ai finalement réussi à produire quelque chose dont je suis satisfait voire fier.</p>
+                
+                <div class="soustitre_part">Comment ?</div>
+                <p>Ce site est développé entièrment à la main en HTML et en CSS (et possiblement en JS) à partir des connaissances de bases acquises lors de mon BTS et des quelques recherches. Si j'ai voulu démarrer <i>from scratch</i> et sans utiliser de CMS ou de <i>templates</i> c'est avant tout pour me mettre au défi et de produire quelquechose de mes propres mains dont je pourrais être fier quelque que soit le résultat.</p>
+                
+                <div class="soustitre_part">Hébergement</div>
+                <p>Avant de pouvoir héberger moi-même mon serveur web (notemment sur <a href="https://www.raspberrypi.org/">Raspberry Pi</a>) il me fallait trouver une solution temporaire.</p>
+                <p>Utiliser la fontion IIS de Windows n'étais pas une option car cela impliquerait de laisser allumé un ordinateur 24/7.</p>
+                <p>J'ai tout d'abord pensé a la box de chez moi car en effet certain FAI propose un serveur web intégré. Malheuresement il se trouve que c'est une pratique qui se fait de moins en moins. Et ma Freebox Delta ne disposait bien évidemment ce service. Il existe cependant une alternative : les machines virtuelles.</p>
+                <p>En effet il est possible de créer des machines virtuelles sur la box afin d'avoir un serveur web sous Debian avec Apache. Cependant pour diverses raisons, notemment ne sachant pas dans quelle mesure s'étandait la sécurité et habitant encore chez mes parents, j'étais réticent à cette idée.</p>
+                <p>J'ai donc continuer mes recherches d'hébergment provisoires jusqu'à tomber sur un article qui évoquait la possiblité offert par <a href="https://github.com/">GitHub</a> d'héberger des sites web.</p>
+                <p>Mon choix c'est donc porté sur GitHub qui me permettait d'utiliser les fichiers HTML que j'avais déja créé tout en facilitant l'hébergement (stockage, nom de domaine, etc...) tout en étant sûr de la sécurité, tout du moins plus importante.</p>
+            </div>
+        </section>
+<!--
+        <section class="projet">
+            <div class="titre_projet">Serveur Minecraft sous Raspberry Pi</div>
+            <div class="contenu_projet">[A venir]</div>
+        </section>
+           <section class="projet">
+            <div class="titre_projet">NAS/Serveur de fichiers Raspeberry PI ?</div>
+            <div class="contenu_projet">[A venir]</div>
+        </section>
+        
+        --><div class="sous_titre">AUTRES</div>
+        <section class="projet">
+            <div class="titre_projet">Donjons et Dragons</div>
+            <div class="contenu_projet">
+                <div class="soustitre_part">Donjons et Dragons</div>
+                <p><b>Donjons et Dragons</b> (DnD) est un jeu de rôle sur table médiéval-fantastique.</p>
+                <p>A l'aide de livres de règles, de feuilles de personnages, des dès à plusieures faces (10, 12, 20 par exepmles), les joueurs jouent la campagne (l'histoire) décrite par le maître du donjon (MJ) à partir de receuils distribués par l'éditeur ou avec du contenu <i>homebrew</i> (que l'on peut traduire par "fait maison").</p>
+                <div class="soustitre_part">Création campagne</div>
+                <p>En 2018 j'ai décidé de me lancer dans la créatuion d'une campagne DnD. Ce qui implique de construire un univers avec son panthéons, ses royaumes, ses personnages, etc. et tout ce que cela implique. Et la tâche est plus ardu que j'imaginais, d'autant plus que j'aime que tout soit cohérant et comme je le souhaite.</p>
+                <p>L'un des points contraignants de DnD est qu'il nécessite pas mal de temps libre (environ 2h minimum). Il faut aussi que les joueurs soit tous présents même si maintenant il existe d'autres moyens (Discord, Roll20).</p>
+                <p>J'ai aussi pour projet de monter un site web pour regrouper tout ce que j'ai pu écrire pour cette campagne.</p>
+                <div class="soustitre_part">Pourquoi ?</div>
+                <p>Donjons et Dragons réuni à la fois l'écriture créative, le théâtre et la cohésion de groupe afin de franchir des obstacles. C'est un jeu qui mériterait pour moi d'être mis plus en avant.</p>
+            </div>
+        </section>
+        <!--<section class="projet">
+            <div class="titre_projet">Musique</div>
+            <div class="contenu_projet">[A venir]</div>
+        </section>
+        <section class="projet">
+            <div class="titre_projet">Photoshop et Infographie</div>
+            <div class="contenu_projet">[A venir]</div>
+        </section>
+        <section class="projet">
+            <div class="titre_projet">Edition vidéo</div>
+            <div class="contenu_projet">[A venir]</div>
+        </section>
+    </main>
+-->
+    <footer>
+        <div class="col_foot">Contact :
+            <div><img src="ressources/image/linkedin.png" alt="logo linkedin"> <a href="https://www.linkedin.com/in/arthur-dubois-759041189/">Arthur DUBOIS</a></div>
+        </div>
+        <div class="col_foot">Créé par Arthur DUBOIS.</div>
+        <div class="col_foot"><a href="source.html">Sources et crédits</a></div>
+    </footer>
+</body></html>

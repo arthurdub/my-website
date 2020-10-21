@@ -1,0 +1,2 @@
+[1007/214902.992:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[1007/215409.442:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\zegee\AppData\Roaming\Brackets\live-dev-profile\Crashpad\attachments\ebf68732-1185-4de1-8097-d7be7b0fa408: Le chemin d’accès spécifié est introuvable. (0x3)

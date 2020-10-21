@@ -1,0 +1,155 @@
+/*Polices personnalisées*/
+@font-face {
+    font-family: 'minimal';
+    src: url(../font/minimal.otf);
+}
+
+@font-face {
+    font-family: 'aliens_and_cows';
+    src: url(../font/aliens_and_cows.ttf)
+}
+
+/*Balises*/
+header {
+    background-color: black;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: arial;
+    width: 900px;
+    margin: auto;
+    font-family: 'minimal';
+    font-size: 20px
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-right: 1px solid #6600cc;
+    border-left: 1px solid #6600cc;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: #e5ccff
+}
+
+a {
+    text-decoration: none;
+    color: #f2e6ff;
+}
+
+a:hover {
+    color: #e5ccff;
+}
+
+b {
+    color: #d9b3ff;
+}
+
+p {
+    text-align: justify;
+}
+
+
+table {
+    margin-left: 5.5%;
+}
+
+table tr td {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: darkgrey;
+    margin-top: 500px;
+}
+
+/*Classes*/
+.titre_principal {
+    text-align: center;
+    background-image: url(../image/banniere.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.sous_titre {
+    color: #6600cc;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.titre_part {
+    font-weight: bold;
+    font-size: 37.5px;
+    color: #a64dff;
+}
+
+.soustitre_part {
+    font-weight: bold;
+    font-size: 25px;
+    color: #bf80ff;
+}
+
+.projet {
+    margin-bottom: 15px;
+    border: 2px solid #d9d9d9;
+    border-radius: 20px;
+}
+
+.titre_projet {
+    border-bottom: 1px solid #d9d9d9;
+    text-align: center;
+    color: #bf80ff;
+    font-weight: bold;
+    font-size: 37.5px;
+}
+
+.contenu_projet {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col_foot {
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 50px;
+}
+
+.logo_ami {
+    width: 150px;
+    border-radius: 50%;
+    padding: 13%;
+}
+
+/*ID*/
+#img_index {
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 25%;
+}
