@@ -1,0 +1,68 @@
+/*Polices personnalisées*/
+@font-face {
+    font-family: 'minimal';
+    src: url(../font/minimal.otf);
+}
+
+
+/*Balises*/
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: arial;
+    width: 900px;
+    margin: auto;
+    font-family: 'minimal';
+    font-size: 30px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #f2e6ff;
+}
+
+a:hover {
+    color: #e5ccff;
+}
+
+footer {
+    background-color: black;
+    color: darkgrey;
+    margin-top: 150px;
+}
+
+/*Classes*/
+.titre_principal {
+    text-align: center;
+    background-image: url(../image/banniere.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    font-size: 150px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.sous_titre {
+    color: #6600cc;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.home_link {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    margin: 86px;
+    /*border: 1px solid white;
+    border-radius: 50px;*/
+}
+
+.col_foot {
+    display: inline-block;
+    margin-right: 34px;
+    margin-left: 34px;
+}

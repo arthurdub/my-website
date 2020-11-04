@@ -10,3 +10,8 @@ icon soudncloud : SoundCloud by rivda from the Noun Project
 icon youtube : youtube by P Thanga Vignesh from the Noun Project
 
 autre icon socials : Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+icon formation : School by arif fauzi hakim from the Noun Project
+icon parcours : case by Bernar  Novalyi from the Noun Project
+icon projet : Project by The Icon Z from the Noun Project
+icon amis : friends by Arthur Shlain from the Noun Project
