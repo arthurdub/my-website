@@ -11,7 +11,7 @@
 
 /*Balises*/
 header {
-    background-color: black;
+    background: linear-gradient(0deg, #000000, 45%, #0d0d0d);
     height: 50px;
     margin-bottom: 30px;
     font-size: 20px;
@@ -62,29 +62,10 @@ a:hover {
     color: #e5ccff;
 }
 
-b {
-    color: #d9b3ff;
-}
-
-p {
-    text-align: justify;
-}
-
-
-table {
-    margin-left: 2%;
-    font-size: 23px;
-}
-
-table tr td {
-    border: 1px solid #4d4d4d;
-    border-radius: 10px;
-}
-
 footer {
     background: linear-gradient(0deg, #000000, #0d0d0d);
     color: darkgrey;
-    margin-top: 50px;
+    margin-top: px;
 }
 
 /*Classes*/
@@ -104,70 +85,64 @@ footer {
     padding-left: 20px;
     margin-bottom: 10px;
     font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #F5FFFA;
+    padding-bottom: 10px;
 }
 
 .titre_part {
     font-weight: bold;
-    font-size: 37.5px;
+    font-size: 40px;
     color: #a64dff;
+}
+
+.projet {
+    margin-bottom: 50px;
+}
+
+.titre_projet {
+    color: #bf80ff;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid #d9d9d9;
+    margin-bottom: 10px;
 }
 
 .soustitre_part {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 33px;
     color: #bf80ff;
 }
 
-.projet {
-    margin-bottom: 15px;
-    border: 2px solid #d9d9d9;
-    border-radius: 20px;
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'minimal';
+    font-size: 25px;
+    display: inline-block;
 }
 
-.titre_projet {
-    border-bottom: 1px solid #d9d9d9;
-    text-align: center;
+.card:hover {
+    border-color: #000000;
+}
+
+.titre_card {
     color: #bf80ff;
     font-weight: bold;
-    font-size: 37.5px;
-}
-
-.contenu_projet {
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 30px;
 }
 
 .col_foot {
     display: inline-block;
     margin-left: 34px;
     margin-right: 34px;
-}
-
-.logo_ami {
-    border-radius: 50%;
-    margin-top: 50px;
-}
-
-.line_friend {
-    display: inline-block;
-}
-
-.line_friend2 {
-    display: inline-block;
-}
-
-.par_ligne{
-    display: inline-block;
-    width: 49%;
-    background: linear-gradient(0deg, #000000, #1a1a1a);
-    margin-bottom: 5%;
-}
-
-
-/*ID*/
-#img_index {
-    width: 50%;
-    border-radius: 50%;
-    margin-top: 50px;
-    margin-left: 25%;
 }
