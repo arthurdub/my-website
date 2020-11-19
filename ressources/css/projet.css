@@ -129,6 +129,7 @@ footer {
     font-family: 'minimal';
     font-size: 25px;
     display: inline-block;
+    background: linear-gradient(#0d0d0d, 45%, #262626);
 }
 
 .card:hover {
