@@ -11,7 +11,7 @@
 
 /*Balises*/
 header {
-    background-color: black;
+    background: linear-gradient(0deg, #000000, 45%, #0d0d0d);
     height: 50px;
     margin-bottom: 30px;
     font-size: 20px;
@@ -81,7 +81,7 @@ table tr td {
 }
 
 footer {
-    background-color: black;
+    background: linear-gradient(0deg, #000000, #0d0d0d);
     color: darkgrey;
     margin-top: 500px;
 }
@@ -103,6 +103,10 @@ footer {
     padding-left: 20px;
     margin-bottom: 10px;
     font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #F5FFFA;
+    padding-bottom: 10px;
 }
 
 .titre_part {
