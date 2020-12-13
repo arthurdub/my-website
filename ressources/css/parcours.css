@@ -1,0 +1,135 @@
+/*Polices personnalisées*/
+@font-face {
+    font-family: 'minimal';
+    src: url(../font/minimal.otf);
+}
+
+@font-face {
+    font-family: 'aliens_and_cows';
+    src: url(../font/aliens_and_cows.ttf)
+}
+
+/*Balises*/
+header {
+    background: linear-gradient(0deg, #000000, 45%, #0d0d0d);
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: arial;
+    width: 900px;
+    margin: auto;
+    font-family: 'minimal';
+    font-size: 30px;
+    text-align: justify;
+}
+
+nav ul {
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-right: 1px solid #6600cc;
+    border-left: 1px solid #6600cc;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: #e5ccff
+}
+
+a {
+    text-decoration: none;
+    color: #f2e6ff;
+}
+
+a:hover {
+    color: #e5ccff;
+}
+
+b {
+    color: #d9b3ff;
+}
+
+footer {
+    background: linear-gradient(0deg, #000000, #0d0d0d);
+    color: darkgrey;
+    margin-top: px;
+}
+
+/*Classes*/
+.titre_principal {
+    text-align: center;
+    background-image: url(../image/banniere.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+    font-size: 140px;
+    margin-bottom: 50px;
+}
+
+.titre_part {
+    font-weight: bold;
+    font-size: 30px;
+    color: #a64dff;
+    border-bottom: 1px solid grey; 
+}
+
+.soustitre_part {
+    font-weight: bold;
+    font-size: 35px;
+    color: #bf80ff;
+}
+
+.post {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 23%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'minimal';
+    font-size: 25px;
+    display: inline-block;
+    background: linear-gradient(#0d0d0d, 45%, #262626);
+}
+
+.afficher_plus {
+    text-align: end;
+    color: #d9b3ff;
+}
+
+.backpage {
+    margin-bottom: 20px;
+}
+
+.col_foot {
+    display: inline-block;
+    margin-right: 34px;
+    margin-left: 34px;
+}
+
+/*ID*/
+#backpage_font {
+    color: #6600cc;
+    padding-left: 5px;
+    padding-top: 5px;
+}
